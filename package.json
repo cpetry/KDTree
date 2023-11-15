@@ -1,5 +1,5 @@
 {
-  "name": "com.cpetry.kDTree",
+  "name": "com.cpetry.kdtree",
   "version": "1.0.0",
   "displayName": "kDTree",
   "description": "Fast KDTree for Unity, with thread-safe querying. Fork from viliwonka",
