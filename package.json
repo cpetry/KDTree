@@ -1,0 +1,16 @@
+{
+  "name": "com.cpetry.kDTree",
+  "version": "1.0.0",
+  "displayName": "kDTree",
+  "description": "Fast KDTree for Unity, with thread-safe querying. Fork from viliwonka",
+  "unity": "2021.3",
+  "keywords": [
+    "kdTree"
+  ],
+  "author": {
+    "name": "Christian Petry",
+    "email": "petry2christian@gmail.com",
+    "url": "https://github.com/cpetry/KDTree"
+  },
+  "dependencies": {}
+}
