@@ -27,12 +27,11 @@ using System;
 
 namespace DataStructures.ViliWonka.KDTree {
 
-    public partial class KDQuery {
-
-        public void Interval(KDTree tree, Vector3 min, Vector3 max, List<int> resultIndices) {
-
+    public partial class KDQuery
+    {
+        public void Interval(KDTree tree, Vector3 min, Vector3 max, List<int> resultIndices)
+        { 
             Reset();
-
             Vector3[] points = tree.Points;
             int[] permutation = tree.Permutation;
 
@@ -105,9 +104,8 @@ namespace DataStructures.ViliWonka.KDTree {
                 else {
 
                     // LEAF
-
                     // testing if node bounds are inside the query interval
-                    if(node.bounds.min[0] >= min[0]
+                    if (node.bounds.min[0] >= min[0]
                     && node.bounds.min[1] >= min[1]
                     && node.bounds.min[2] >= min[2]
 

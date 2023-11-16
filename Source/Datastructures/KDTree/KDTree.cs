@@ -21,10 +21,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-// change to !KDTREE_DUPLICATES
-// if you know for sure you will not use duplicate coordinates (all unique)
-#define KDTREE_DUPLICATES
-
 using System.Collections;
 using System.Collections.Generic;
 using System;
